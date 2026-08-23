@@ -183,53 +183,7 @@ function HakyhmHome() {
 
         <div className="media-grid">
           <a className="media-card spotify-card" href={spotifyUrl} target="_blank" rel="noreferrer">
-          <a className="media-card" href={instagramUrl} target="_blank" rel="noreferrer">
-  <div className="card-top">
-    <span>Instagram</span>
-    <ArrowRight />
-  </div>
-  <div>
-    <Instagram className="media-icon" size={30} />
-    <h3>Follow HAKYHM.</h3>
-    <p>Follow HAKYHM on Instagram.</p>
-  </div>
-</a>
-
-<a className="media-card" href={tiktokUrl} target="_blank" rel="noreferrer">
-  <div className="card-top">
-    <span>TikTok</span>
-    <ArrowRight />
-  </div>
-  <div>
-    <Music2 className="media-icon" size={30} />
-    <h3>Watch on TikTok.</h3>
-    <p>Follow HAKYHM on TikTok.</p>
-  </div>
-</a>
-
-<a className="media-card" href={youtubeUrl} target="_blank" rel="noreferrer">
-  <div className="card-top">
-    <span>YouTube</span>
-    <ArrowRight />
-  </div>
-  <div>
-    <Youtube className="media-icon" size={30} />
-    <h3>Watch HAKYHM.</h3>
-    <p>Watch official videos and content on YouTube.</p>
-  </div>
-</a>
-
-<a className="media-card" href={appleMusicUrl} target="_blank" rel="noreferrer">
-  <div className="card-top">
-    <span>Apple Music</span>
-    <ArrowRight />
-  </div>
-  <div>
-    <Music2 className="media-icon" size={30} />
-    <h3>Listen on Apple Music.</h3>
-    <p>Stream HAKYHM on Apple Music.</p>
-  </div>
-</a>            <div className="card-top">
+              <div className="card-top">
               <span>01 / Official music</span>
               <ArrowUpRight />
             </div>
