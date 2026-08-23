@@ -116,7 +116,7 @@ function HakyhmHome() {
         <div className="hero-image-wrap reveal reveal-4">
           <img
             className="hero-image"
-            src="/hakyhm-web/images/hakyhm-1.jpg"
+            src="/images/hakyhm-1.jpg"
             alt="Hakyhm performing above a festival crowd"
           />
           <div className="image-index">LIVE ARCHIVE / 001</div>
