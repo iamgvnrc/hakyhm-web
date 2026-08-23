@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 import netlify from '@netlify/vite-plugin-tanstack-start'
 
 const config = defineConfig({
-  plugins: [
+  base: '/hakyhm-web/',  plugins: [
     viteTsConfigPaths({
       projects: ['./tsconfig.json'],
     }),
